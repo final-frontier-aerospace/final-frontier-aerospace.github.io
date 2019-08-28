@@ -3,6 +3,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.16.6"
 plugins:
 - jekyll-feed
 - jekyll-include-cache
+- jekyll-paginate
 minimal_mistakes_skin: dark
 locale: en-US
 title: Final Frontier Aerospace Systems and Technology
@@ -24,6 +25,13 @@ defaults:
     path: ""
     type: posts
   values:
+    layout: single
     read_time: true
+    author_profile: false
+    comments: false
+    share: true
+    related: true
 #words_per_minute:
 search: true
+paginate: 10
+paginate_path: /posts/:num
