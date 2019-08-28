@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur. Quisque magna ligula, sodales vitae tortor pellentesque, elementum pellentesque magna. Praesent iaculis porta ipsum. Aliquam id urna aliquam, ornare mauris sit amet, tincidunt dolor. Nunc quis dolor eu ipsum tincidunt dapibus. Vivamus tempus justo eget vestibulum dapibus. Proin vitae nunc a metus eleifend bibendum non malesuada dolor. Morbi varius leo erat. Suspendisse a pulvinar massa. Morbi nisi ante, iaculis in sapien sit amet, finibus gravida nisl. Ut eu sem in lorem cursus tempus.
 
 In ultrices leo ut lectus euismod, vitae scelerisque tortor condimentum. In sollicitudin viverra sollicitudin. Fusce scelerisque diam quis lorem ornare, a viverra nibh commodo. Quisque sodales quam vitae neque accumsan sagittis. Integer interdum varius libero sit amet rhoncus. Quisque a dui nulla. Suspendisse ornare risus tellus, in condimentum sapien dapibus eu. Integer vitae nisl consectetur, iaculis nisl ut, vulputate erat. Integer viverra lorem a cursus egestas.

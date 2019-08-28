@@ -39,7 +39,26 @@ For Team
 
 #### Home
 
-// TODO
+You should not have to change anything about the home page.
+It just shows a list of all recent posts (see below section).
+However, if you wish to change the pagination settings, those can be found in __config.yml_.
+
+#### Posts
+
+Posts must be called `YYYY-MM-DD-name-of-post.md` and be in the __posts_ folder.
+They have the following format:
+
+```yaml
+---
+title: "The Title of the Post"
+date: YYYY-MM-DD hh:mm:ss -0X00
+---
+
+Post content
+```
+
+Posts will automatically be added to the home page and Atom feed once the file has been made and the date is not in the future.
+However, a file has to be changed after the date is not in the future before the post will show up.
 
 #### 404
 
@@ -48,11 +67,23 @@ If you need anything special changed about this page for some reason, go find a 
 
 #### About
 
-// TODO
+The about page is just normally formatted right now.
+If any special formatting is applied later it can be documented here.
 
 #### Leadership
 
-// TODO
+The leadership page does not contain normal formatting at all.
+Instead, the current leadership are defined in the yaml.
+Under the `feature_row` key, each officer will have an entry in the following format, and the officer entries are sorted by most important first, least important last:
+
+```yaml
+- image_path: /assets/FirstnameLastname.jpg
+  title: Firstname Lastname
+  excerpt: Officer Role Name
+  url: mailto:emailaddress@ksu.edu
+  btn_label: Email
+  btn_class: btn--primary
+```
 
 #### Sponsors
 
