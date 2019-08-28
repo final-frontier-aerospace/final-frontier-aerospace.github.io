@@ -1,6 +1,6 @@
 ---
 title: Sponsors
-url: /sponsors
+permalink: /sponsors
 layout: splash
 
 feature_row:

@@ -1,6 +1,6 @@
 ---
 title: Leadership
-url: /leadership
+permalink: /leadership
 layout: splash
 
 feature_row:
