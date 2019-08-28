@@ -1,0 +1,12 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+select {
+    width: 100% !important;
+    background-color: #252a34 !important;
+}
