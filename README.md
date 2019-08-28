@@ -105,7 +105,8 @@ The `{% include feature_row %}` is where the sponsors list will be inserted.
 
 #### Contact
 
-// TODO
+The contact form is very different than a normal file, because it has to be implemented in HTML.
+As with the 404 page, but even moreso this time, if you need to change anything and can't get it to work, you should find a computer science student.
 
 #### This document
 
