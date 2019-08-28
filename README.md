@@ -87,7 +87,19 @@ Under the `feature_row` key, each officer will have an entry in the following fo
 
 #### Sponsors
 
-// TODO
+The sponsors are put on the page with some irregular formatting.
+Instead of putting them on the page, they are defined in the yaml.
+Under the `feature_row` key, each sponsor will have an entry in the following format:
+
+```yaml
+- image_path: /assets/sponsors/Name.png
+  title: Name
+  excerpt: Brief description of what they do or how they help us.
+  url: https://urltosponsor.com
+```
+
+In addition, after the second --- in the file, there is some other text that follows the normal formatting rules to describe other things that are not part of the list of sponsors.
+The `{% include feature_row %}` is where the sponsors list will be inserted.
 
 #### Contact
 
