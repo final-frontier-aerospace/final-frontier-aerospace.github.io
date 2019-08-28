@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: ""
+layout: single
 ---
+
+# Contact
+
+(put contact info here)
+
+# Other cool stuff
+
+(put some links here)
