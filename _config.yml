@@ -1,7 +1,8 @@
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.16.6"
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-include-cache
 minimal_mistakes_skin: dark
 locale: en-US
 title: Final Frontier Aerospace Systems and Technology
