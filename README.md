@@ -77,13 +77,15 @@ Instead, the current leadership are defined in the yaml.
 Under the `feature_row` key, each officer will have an entry in the following format, and the officer entries are sorted by most important first, least important last:
 
 ```yaml
-- image_path: /assets/FirstnameLastname.jpg
+- image_path: /assets/people/FirstnameLastname.jpg
   title: Firstname Lastname
   excerpt: Officer Role Name
   url: mailto:emailaddress@ksu.edu
   btn_label: Email
   btn_class: btn--primary
 ```
+
+In addition, a picture will have to be uploaded in the `/assets/people/` folder to match the `image_path`.
 
 #### Sponsors
 
