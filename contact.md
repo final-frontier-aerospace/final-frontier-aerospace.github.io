@@ -12,6 +12,6 @@ layout: splash
     <label for="_replyto">Email:</label>
     <input type="email" name="_replyto" />
     <label for="message">Message:</label>
-    <textarea name="message"></textarea>
+    <textarea name="message" rows="10"></textarea>
     <button type="submit" class="btn btn--primary">Submit</button>
 </form>
