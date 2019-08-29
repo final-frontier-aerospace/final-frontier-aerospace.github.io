@@ -10,23 +10,23 @@ feature_row:
   url: https://www.twmetals.com/
 - image_path: /assets/sponsors/GraphiteStore.png
   title: Graphite Store
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: Graphite Store is a leading supplier of carbon, graphite, and ceramic products. They also product high temperature coatings, ceramics, and composites. 
   url: http://graphitestore.com
 - image_path: /assets/sponsors/PyroChemSource.png
   title: Pyro Chem Source
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: Pyro Chem Source maintains a huge stock of pyrotechnic and firework chemicals. Based in Minnesota, they sponsor FFAero's motor development program. 
   url: https://www.pyrochemsource.com/
 - image_path: /assets/sponsors/NoahsMarine.jpg
   title: Noah's Marine
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: Noah's Marine specializes in boat supplies and composites. They carry products such as epoxy resin, hardener, and other watercraft specific items such as canoe kits. 
   url: https://www.noahsmarine.com/
 - image_path: /assets/sponsors/BGFComposites.jpg
   title: BGF Composites
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: BGF Composites is a subgroup of BGF Industries, which specializes in fiber materials, ranging from bulk fiberglass, to fiber optic cables, to insulation. 
   url: http://www.bgf.com/
 - image_path: /assets/sponsors/Ansys.jpg
   title: ANSYS
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: ANSYS is the global leader in engineering simulation. Their products include semiconductor simulation, structural simulation, and Computational Fluid Dynamics simulation.
   url: https://www.ansys.com/
 - image_path: /assets/sponsors/Altium.png
   title: Altium
