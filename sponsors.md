@@ -30,7 +30,7 @@ feature_row:
   url: https://www.ansys.com/
 - image_path: /assets/sponsors/Altium.png
   title: Altium
-  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus massa non diam hendrerit volutpat a et massa. Aenean laoreet nunc sed semper consectetur.
+  excerpt: Altium Designer is a global industry standard for Printed Circuit Design Computer Aided Design software complete with signal analysis and 3D modeling capabilites.
   url: https://www.altium.com/
 ---
 
