@@ -13,3 +13,11 @@ select {
 .masthead {
     background-color: #252a34;
 }
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("/assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+form {
+    background-color: rgba(31, 36, 44, 0.8);
+}
