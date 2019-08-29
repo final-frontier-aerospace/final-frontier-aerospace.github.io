@@ -22,7 +22,7 @@ feature_row:
   url: mailto:dodsomir@ksu.edu
   btn_label: Email
   btn_class: btn--primary
-- image_path: /assets/people/EthanEccles.jpg
+- image_path: /assets/people/EthanEccles.png
   title: Ethan Eccles
   excerpt: SAC Competition Manager
   url: mailto:eccleser@ksu.edu
