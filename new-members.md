@@ -14,7 +14,7 @@ This information only applies to current students at Kansas State University wan
 Meetings
 ------
 
-First yearly meeting: Wednesday, September 4, 2019 at 6:00 PM (location TBD)
+First yearly meeting: Wednesday, September 4, 2019 at 6:30 PM (location TBD)
 
 Join Now
 ------
