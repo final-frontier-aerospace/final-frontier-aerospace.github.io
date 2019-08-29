@@ -4,6 +4,7 @@ plugins:
 - jekyll-feed
 - jekyll-include-cache
 - jekyll-paginate
+- jekyll-analytics
 minimal_mistakes_skin: dark
 locale: en-US
 title: Final Frontier Aerospace Systems and Technology
@@ -35,3 +36,6 @@ defaults:
 search: true
 paginate: 10
 paginate_path: /posts/:num
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-146645847-1
