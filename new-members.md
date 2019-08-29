@@ -19,7 +19,7 @@ First yearly meeting: Wednesday, September 4, 2019 at 6:30 PM (location TBD)
 Join Now
 ------
 
-<form action="https://formspace.io/ffaero@ffaero.com" method="POST">
+<form action="https://formspree.io/ffaero@ffaero.com" method="POST">
     <label for="Name">Name:</label>
     <input type="text" name="Name" />
     <label for="_replyto">K-State email:</label>
