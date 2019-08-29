@@ -123,7 +123,7 @@ First, install the [Ruby](https://www.ruby-lang.org/en/downloads/) programming l
 Then, open a shell (PowerShell on Windows, Terminal.app on Mac, or almost any terminal on Linux), and run the following commands (inside the top directory of this Git repo):
 
 ```sh
-gem install bundler
+gem install bundler:1.17.3
 bundle install
 ```
 
