@@ -32,6 +32,14 @@ feature_row:
   title: Altium
   excerpt: Altium Designer is a global industry standard for Printed Circuit Design Computer Aided Design software complete with signal analysis and 3D modeling capabilites.
   url: https://www.altium.com/
+- image_path: /assets/sponsors/LorisLodge.png
+  title: Lori's Lodge
+  excerpt: Final Frontier Aerospace greatly appreciates the monetary support from Lori's Lodge, located in Glen Elder, KS.
+  url: https://www.facebook.com/LorisLodge
+- image_path: /assets/sponsors/ShoesETC.jpg
+  title: Shoes etc. & Stonz Jewelry
+  excerpt: Final Frontier Aerospace greatly appreciates the monetary support from Shoes etc. & Stonz Jewelry, located in Downs, KS.
+  url: https://www.facebook.com/SHOESetc
 ---
 
 We are very thankful for all of our sponsors listed below.
