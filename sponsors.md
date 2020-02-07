@@ -40,6 +40,7 @@ feature_row:
   title: Shoes etc. & Stonz Jewelry
   excerpt: Final Frontier Aerospace greatly appreciates the monetary support from Shoes etc. & Stonz Jewelry, located in Downs, KS.
   url: https://www.facebook.com/SHOESetc
+- title: Soller Composites, LLC
   image_path: /assets/sponsors/SollerComposites.jpg
   excerpt: Soller Composites is a distributor and retailer of composite materials and epoxy resins. Based in New Hampshire, they sponsor FFAero's vehicle bodies.
   url: https://www.sollercomposites.com/
