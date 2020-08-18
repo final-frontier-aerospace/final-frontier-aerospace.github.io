@@ -46,10 +46,13 @@ feature_row:
   url: https://www.sollercomposites.com/
 ---
 
+<br>
+<div class="notice--info">INFO: FFAERO is no longer a 501(c)3. We are now registered as a DSO at Kansas State Univeristy</div>
+
 We are very thankful for all of our sponsors listed below.
 Without their help, we would not be able to do the things we do.
 
 {% include feature_row %}
 
 If you would like to become a sponsor, please [contact us](mailto:ffaero@ffaero.com).
-Final Frontier Aerospace Systems and Technology is a registered 501(c)(3), so all donations are tax-refundable.
+Final Frontier Aerospace Systems and Technology is DSO of Kansas State University, so all donations are tax-refundable.
