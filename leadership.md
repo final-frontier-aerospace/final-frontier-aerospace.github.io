@@ -34,6 +34,12 @@ feature_row:
   url: mailto:aherbic@ksu.edu
   btn_label: Email
   btn_class: btn--primary
+- image_path: /assets/people/AlexClark.jpg
+  title: Alex Clark
+  excerpt: Safety Officer
+  url: mailto:awclark@ksu.edu
+  btn_label: Email
+  btn_class: btn--primary
 - image_path: /assets/people/GrantNichol.jpg
   title: Grant Nichol
   excerpt: Secretary
