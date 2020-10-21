@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="/static/js/github-auth.js"></script>
+        <style>
+            body > div {
+                display: none;
+            }
+            h2, h4 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="state-redir">
+            <h2>
+                Click
+                <a id="redir">here</a>
+                if you are not automatically redirected.
+            </h2>
+        </div>
+        <div id="state-error">
+            <h2>Authentication Error</h2>
+        </div>
+        <div id="state-confirm">
+            <h2>
+                Do you want to allow
+                <span id="target">(unknown host)</span>
+                to access your GitHub account?
+            </h2>
+            <button onclick="cancelAuth()" style="float: left;">No</button>
+            <button onclick="finishAuth()" style="float: right;">Yes</button>
+        </div>
+        <div id="state-cancel">
+            <h2>Authentication cancelled.</h2>
+            <h4>You may now close this tab.</h4>
+        </div>
+        <div id="state-done">
+            <h2>Authentication complete.</h2>
+            <h4>You may now close this tab.</h4>
+        </div>
+    </body>
+</html>
