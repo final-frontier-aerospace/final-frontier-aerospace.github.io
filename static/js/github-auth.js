@@ -1,5 +1,5 @@
 var query = {};
-var callback = "";
+var callback;
 
 addEventListener("load", function() {
     if (location.search.length > 1) {
@@ -11,27 +11,31 @@ addEventListener("load", function() {
         });
     }
     var oldState = localStorage.githubState;
+    callback = localStorage.githubTarget;
     if (oldState) {
         localStorage.removeItem("githubState");
     }
+    if (callback) {
+        localStorage.removeItem("githubTarget");
+    }
     if (query.code && query.state) {
         if (query.state === oldState) {
-            callback = location.pathname.substr("/static/github-auth/".length);
             document.getElementById("target").innerText = callback;
             document.getElementById("state-confirm").style.display = "block";
         } else {
             document.getElementById("state-error").style.display = "block";
         }
-    } else {
+    } else if (query.target) {
         var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         var state = "";
         for (var i = 0; i < 16; ++i) {
             state += alphabet[Math.floor(Math.random() * alphabet.length)];
         }
         localStorage.githubState = state;
+        localStorage.githubTarget = query.target;
         var props = {
             "client_id": "6a1a713dd92598462dec",
-            "redirect_uri": "https://ffaero.com" + location.pathname,
+            "redirect_uri": "https://ffaero.com/static/github-auth",
             "state": state
         };
         if (query.login) {
@@ -51,6 +55,8 @@ addEventListener("load", function() {
         document.getElementById("redir").href = uri;
         document.getElementById("state-redir").style.display = "block";
         location.href = uri;
+    } else {
+        document.getElementById("state-error").style.display = "block";
     }
 });
 
@@ -62,8 +68,8 @@ function cancelAuth() {
 function finishAuth() {
     document.getElementById("state-confirm").style.display = "none";
     document.getElementById("state-done").style.display = "block";
-    var iframe = document.createElement("iframe");
-    iframe.src = "http://" + callback + "?code=" + query.code;
-    iframe.style.display = "none";
-    document.body.appendChild(iframe);
+    var img = document.createElement("img");
+    img.src = "http://" + callback + "?code=" + query.code;
+    img.style.display = "none";
+    document.body.appendChild(img);
 }
