@@ -148,6 +148,30 @@ However, if you are not able to or something works on your computer but doesn't 
 Additionally, the CloudFlare setup will cause the public website to lag behind this repository by about three hours, which can be overridden temporarily by turning on development mode in the CloudFlare dashboard.
 Without turning on development mode, if it hasn't been three hours yet, that is most likely why the site hasn't updated yet.
 
+### Fixing DependaBot Alerts
+
+First, install the [Ruby](https://www.ruby-lang.org/en/downloads/) programming language.
+
+Then, open a shell (PowerShell on Windows, Terminal.app on Mac, or almost any terminal on Linux), and run the following commands (inside the top directory of this Git repo):
+
+```sh
+gem install bundler:1.17.3
+```
+
+Up to this point, everything only has to be done once to install everything to your computer.
+Here on describes things you will have to do every time you want to fix existing DependaBot alerts.
+
+Inside the Git repository in a shell, run the following command:
+
+```sh
+bundle install
+bundle update
+bundle exec jekyll serve
+```
+
+Then, go [here](http://localhost:4000) and verify the website looks correct.
+Finally, commit the changes to the `Gemfile.lock` and push to fix the alerts.
+
 ### Documentation for tools used
 
  * [Jekyll](https://jekyllrb.com/docs/), the tool that generates the website from these files
