@@ -5,7 +5,7 @@ layout: splash
 ---
 
 
-<form action="https://formspree.io/ffaero@ffaero.com" method="POST">
+<form action="https://formspree.io/f/mwkwjapq" method="POST">
     <h1>Contact</h1>
     <label for="Name">Name:</label>
     <input type="text" name="Name" />
